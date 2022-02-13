@@ -29,10 +29,11 @@ sour = sweet and false       # false
 spicy = not (sour || sweet)  # false
 
 # The conditional assignment operator assigns to the variable only if its
-# current value is false or nil.
-a = false
-b = true
-a ||= 
+# current value is false or nil. This is shorthand for a = a || b
+x ||= 1         #=> 1
+x ||= 99        #=> 1
+y ||= false     #=> false
+y ||= true      #=> true
 
 # Calling methods on objects is done as you'd expect; although the parentheses
 # are optional if you don't need them.
