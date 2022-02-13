@@ -12,6 +12,7 @@ The languages included are:
  - C
  - Java
  - Haskell
+ - Ruby
 
 They're all a couple of years old, except Haskell, which I'm currently working with, but should generally still be
 accurate. I doubt much has changed about the things that I actually took notes on. They just won't have notes on any
